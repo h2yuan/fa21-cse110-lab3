@@ -121,6 +121,43 @@
         <h1>Comments, Questions & Concerns</h1>
         <p> Tom argues it is <b>unrealistic</b> to largely shorten CO2 realease, considering the bad Global Economy caused by the new Pandemic</p>
     </section>
+
+    <section>
+        <h1>FORM</h1>
+        <form>
+            Your Birthday: <input type="date" id="Birth" name="Birthday" value="2000-01-01" min="1900-01-01" max="2021-10-03"><br>
+            Favorite Food: <input type="text" name=favoritefood><br>
+            Mood: <input type="radio" name="mood" value="happy">happy
+            <input type="radio" name="mood" value="happy">sad<br>
+            <textarea rows="3" cols="30">
+                Talk about your mood:
+            </textarea><br>
+            <fieldset>
+                <legend>Choose instruments you like:</legend>
+                <input type="checkbox" name="instruments you like" value="violin">Violin<br>
+                <input type="checkbox" name="instruments you like" value="guitar">Guitar<br>
+                <input type="checkbox" name="instruments you like" value="piano">Piano<br>
+            </fieldset><br>
+            Choose your favorite taste of juice:
+            <input list="juicetaste" name="taste">
+            <datalist id="juicetaste">
+                <option value="strawberry"></option>
+                <option value="blueberry"></option>
+                <option value="watermelon"></option>
+                <option value="apple"></option>
+                <option value="other"></option>
+            </datalist><br>
+            <label for="FC">Your favorite subject:</label>
+            <select name="fss" id="FS">
+                <option value="">--Choose your favorite subject--</option>
+                <option value="CS">CS</option>
+                <option value="MATH">MATH</option>
+                <option value="WRITING">WRITING</option>
+                <option value="OTHER">OTHER</option>
+            </select><br>
+            <button type="button" onclick="alert('Nothing!')">Try it!</button><br>
+        </form>
+    </section>
     <footer>GW</footer>
 </main>
 </body>
