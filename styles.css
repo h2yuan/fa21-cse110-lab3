@@ -18,6 +18,10 @@ p {
     color: rgb(66, 114, 66);
 }
 
+p:first-child {
+    color: black;
+}
+
 li {
     color: #FFF345;
     list-style-type: circle;
