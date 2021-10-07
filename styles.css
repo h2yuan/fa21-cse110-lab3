@@ -31,3 +31,23 @@ li {
 .first_class{
     color: salmon;
 }
+
+div p {
+    color: purple;
+}
+
+div > li {
+    color: black;
+}
+
+h1 ~ p {
+    background-color: silver;
+}
+
+div + p {
+    background-color: white;
+}
+
+p.second_class {
+    color: white;
+}
