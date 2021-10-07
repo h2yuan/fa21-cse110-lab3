@@ -1,3 +1,7 @@
+* {
+    background: rgb(219, 217, 217);
+}
+
 h1 {
     color: blue;
 }
@@ -6,6 +10,10 @@ h2 {
     color: hsl(20, 70%, 30%);
 }
 
+a[target] {
+    background-color: pink;
+  }
+
 p {
     color: rgb(66, 114, 66);
 }
@@ -13,4 +21,13 @@ p {
 li {
     color: #FFF345;
     list-style-type: circle;
+}
+
+#id1 {
+    background-color: green;
+    color: black;
+}
+
+.first_class{
+    color: salmon;
 }
