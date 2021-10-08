@@ -129,3 +129,29 @@ p.second_class {
     margin: 8px;
     align-self: flex-end;
 }
+
+.parentgrid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: repeat(3, 80px);
+    gap: 10px;
+    justify-items: center;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+  }
+  
+  .childgrid1 {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    background-color: red;
+  }
+  .childgrid2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: yellow;
+  }
+  .childgrid3 {
+    grid-column: 1 / 1;
+    grid-row: 3 / 4;
+    background-color: green;
+  }
