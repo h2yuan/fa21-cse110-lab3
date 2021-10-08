@@ -1,11 +1,11 @@
 * {
-    background: rgb(219, 217, 217);
+    text-decoration: underline;
 }
 
 h1, h2 {
     color: hsl(20, 70%, 30%);
-    text-decoration:underline;
     text-align:center;
+    font-family: 'Akronim', cursive;
 }
 
 a[target] {
@@ -154,4 +154,10 @@ p.second_class {
     grid-column: 1 / 1;
     grid-row: 3 / 4;
     background-color: green;
+  }
+
+  @media screen and (min-width: 500px) {
+    body {
+      background-color: rgb(185, 183, 183);
+    }
   }
