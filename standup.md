@@ -31,3 +31,8 @@ Walk the board:
 2. Priority tasks:
 3. Things need more consideration:
 4. ...
+
+Brainstorm:
+- What can we do to improve the working progress
+- Any good suggestions or resources to share to others?
+- ...
